@@ -1,13 +1,10 @@
 def fizzbuzz(int)
-  if int % 3 == true
+  if int % 3 == 0
     "Fizz"
-  end
-else int % 5 == true
+  else int % 5 == 0
   "Buzz"
-end
-elsif (int % 3) && (int % 5) == true
+elsif (int % 3) && (int % 5) == 0
   "Fizzbuzz"
-end
 elsif !((int % 3) && (int % 5))
   ""
 end
